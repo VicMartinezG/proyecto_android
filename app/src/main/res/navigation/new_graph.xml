@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_profile_frament"
+    android:label="Profile"
+    app:startDestination="@id/id_home_frament">
+
+    <fragment
+        android:id="@+id/id_home_frament"
+        android:name="com.example.appmovilvoix.Fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/id_profile_fragment"
+        android:name="com.example.appmovilvoix.Fragment.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/id_settings_fragment"
+        android:name="com.example.appmovilvoix.Fragment.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
